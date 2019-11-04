@@ -9,7 +9,7 @@ public class LoginTest {
   @Test(dataProvider = "dp")
   public void f(Integer n, String s) {
 	  
-	  System.out.println("n = "+n+"s  = "+s);
+	  System.out.println("Data set n = "+n+"s  = "+s);
   }
   @BeforeMethod
   public void beforeMethod() {
