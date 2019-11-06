@@ -1,0 +1,66 @@
+2019-11-05 14:03:17 DEBUG BaseTest:67 - Reading entire data from file: C:\Users\sapai\Roopa\QA\Practice\AutomationFramework\datadriven\resources\LoginTestDataOrangeHRM.xlsx Sheet: LoginTestData
+2019-11-05 14:03:17 DEBUG BaseTest:77 - Total Number of TestCases   : 7
+2019-11-05 14:03:17 DEBUG BaseTest:80 - Number of Cols in test data   : 5
+2019-11-05 14:03:17 DEBUG BaseTest:56 - Read ExcelData: LoginTC_P001
+2019-11-05 14:03:17 DEBUG BaseTest:56 - Read ExcelData: admin
+2019-11-05 14:03:17 DEBUG BaseTest:56 - Read ExcelData: admin123
+2019-11-05 14:03:17 DEBUG BaseTest:56 - Read ExcelData: positive
+2019-11-05 14:03:17 DEBUG BaseTest:56 - Read ExcelData: Welcome Admin
+2019-11-05 14:03:17 DEBUG BaseTest:56 - Read ExcelData: LoginTC_P002
+2019-11-05 14:03:17 DEBUG BaseTest:56 - Read ExcelData: Admin
+2019-11-05 14:03:17 DEBUG BaseTest:56 - Read ExcelData: admi4
+2019-11-05 14:03:17 DEBUG BaseTest:56 - Read ExcelData: negative
+2019-11-05 14:03:17 DEBUG BaseTest:56 - Read ExcelData: Invalid credentials
+2019-11-05 14:03:17 DEBUG BaseTest:56 - Read ExcelData: LoginTC_P003
+2019-11-05 14:03:17 DEBUG BaseTest:50 - Read ExcelData: is blank 
+2019-11-05 14:03:17 DEBUG BaseTest:56 - Read ExcelData: admin123
+2019-11-05 14:03:17 DEBUG BaseTest:56 - Read ExcelData: negative
+2019-11-05 14:03:17 DEBUG BaseTest:56 - Read ExcelData: Username cannot be empty
+2019-11-05 14:03:17 DEBUG BaseTest:56 - Read ExcelData: LoginTC_P004
+2019-11-05 14:03:17 DEBUG BaseTest:50 - Read ExcelData: is blank 
+2019-11-05 14:03:17 DEBUG BaseTest:50 - Read ExcelData: is blank 
+2019-11-05 14:03:17 DEBUG BaseTest:56 - Read ExcelData: negative
+2019-11-05 14:03:17 DEBUG BaseTest:56 - Read ExcelData: Username cannot be empty
+2019-11-05 14:03:17 DEBUG BaseTest:56 - Read ExcelData: LoginTC_P005
+2019-11-05 14:03:17 DEBUG BaseTest:56 - Read ExcelData: admin124
+2019-11-05 14:03:17 DEBUG BaseTest:50 - Read ExcelData: is blank 
+2019-11-05 14:03:17 DEBUG BaseTest:56 - Read ExcelData: negative
+2019-11-05 14:03:17 DEBUG BaseTest:56 - Read ExcelData: Password cannot be empty
+2019-11-05 14:03:17 DEBUG BaseTest:50 - Read ExcelData: is blank 
+2019-11-05 14:03:17 DEBUG BaseTest:50 - Read ExcelData: is blank 
+2019-11-05 14:03:18 DEBUG BaseTest:12 - Setting up Driver 
+2019-11-05 14:03:20 DEBUG BaseTest:16 - Driver setup successfully
+2019-11-05 14:03:20 DEBUG BaseTest:36 - Data set:  userName = admin passWd = admin123 testType = positive testMsg=Welcome Admin
+2019-11-05 14:03:24 DEBUG BaseTest:45 - Logged in 
+2019-11-05 14:03:24 DEBUG BaseTest:50 - Welcome text = *Welcome Admin* ::expected Message =*Welcome Admin*
+2019-11-05 14:03:24 DEBUG BaseTest:53 - Welcome greetings matches for positive TC
+2019-11-05 14:03:25 DEBUG BaseTest:12 - Setting up Driver 
+2019-11-05 14:03:27 DEBUG BaseTest:16 - Driver setup successfully
+2019-11-05 14:03:27 DEBUG BaseTest:36 - Data set:  userName = Admin passWd = admi4 testType = negative testMsg=Invalid credentials
+2019-11-05 14:03:30 DEBUG BaseTest:45 - Logged in 
+2019-11-05 14:03:30 DEBUG BaseTest:59 - Warning MSG = Invalid credentials
+2019-11-05 14:03:30 DEBUG BaseTest:61 - Warning Message matches for negative TC
+2019-11-05 14:03:31 DEBUG BaseTest:12 - Setting up Driver 
+2019-11-05 14:03:33 DEBUG BaseTest:16 - Driver setup successfully
+2019-11-05 14:03:33 DEBUG BaseTest:36 - Data set:  userName =  passWd = admin123 testType = negative testMsg=Username cannot be empty
+2019-11-05 14:03:35 DEBUG BaseTest:45 - Logged in 
+2019-11-05 14:03:36 DEBUG BaseTest:59 - Warning MSG = Username cannot be empty
+2019-11-05 14:03:36 DEBUG BaseTest:61 - Warning Message matches for negative TC
+2019-11-05 14:03:36 DEBUG BaseTest:12 - Setting up Driver 
+2019-11-05 14:03:38 DEBUG BaseTest:16 - Driver setup successfully
+2019-11-05 14:03:38 DEBUG BaseTest:36 - Data set:  userName =  passWd =  testType = negative testMsg=Username cannot be empty
+2019-11-05 14:03:41 DEBUG BaseTest:45 - Logged in 
+2019-11-05 14:03:41 DEBUG BaseTest:59 - Warning MSG = Username cannot be empty
+2019-11-05 14:03:41 DEBUG BaseTest:61 - Warning Message matches for negative TC
+2019-11-05 14:03:41 DEBUG BaseTest:12 - Setting up Driver 
+2019-11-05 14:03:43 DEBUG BaseTest:16 - Driver setup successfully
+2019-11-05 14:03:43 DEBUG BaseTest:36 - Data set:  userName = admin124 passWd =  testType = negative testMsg=Password cannot be empty
+2019-11-05 14:03:46 DEBUG BaseTest:45 - Logged in 
+2019-11-05 14:03:46 DEBUG BaseTest:59 - Warning MSG = Password cannot be empty
+2019-11-05 14:03:46 DEBUG BaseTest:61 - Warning Message matches for negative TC
+2019-11-05 14:03:46 DEBUG BaseTest:12 - Setting up Driver 
+2019-11-05 14:03:49 DEBUG BaseTest:16 - Driver setup successfully
+2019-11-05 14:03:49 DEBUG BaseTest:36 - Data set:  userName = null passWd = null testType = null testMsg=null
+2019-11-05 14:03:51 DEBUG BaseTest:12 - Setting up Driver 
+2019-11-05 14:03:53 DEBUG BaseTest:16 - Driver setup successfully
+2019-11-05 14:03:53 DEBUG BaseTest:36 - Data set:  userName = null passWd = null testType = null testMsg=null
